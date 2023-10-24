@@ -63,6 +63,7 @@ img {
 .item-plaatje {
   float:left;
   width:250px;
+  height: 300px;
   padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
 }
 .item-tekst {
@@ -75,7 +76,7 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: rgb(192, 21, 21);
 }
 
 .smalltext {
@@ -84,7 +85,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -120,5 +121,5 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: red;
 }
