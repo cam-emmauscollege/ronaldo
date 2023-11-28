@@ -113,6 +113,9 @@ nav ul {
     padding: 0;
     background-color: #dddddd;
     overflow: hidden;
+    z-index: 1;
+    left: 1600px;
+    position: absolute;
 }
 
 nav ul li {
@@ -125,6 +128,9 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  
+
+
    
 }
 
@@ -137,8 +143,8 @@ nav li a.active {
 }
 
 
-#image-container{
-  overflow: hiddden;
+#image-ronaldo{
+  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -146,7 +152,7 @@ nav li a.active {
   height: 100%;
   opacity: 0.2;
   /*20% opacity*/
-  background-image: url('afbeeldingen/ronaldo omhaal.jpeg');
+  background-image: url('afbeeldingen/ronaldo\ omhaal.jpeg');
   background-size: cover;
   background-position: center;
 
