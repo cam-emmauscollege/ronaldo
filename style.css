@@ -20,7 +20,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #eeeeee;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -72,7 +72,8 @@ img {
   float:left;
   width:250px;
   height: 300px;
-  border: ridge red 5px;
+  border: ridge rgb(255, 0, 0) 5px;
+  
 
   
 }
@@ -116,6 +117,8 @@ nav ul {
     z-index: 1;
     left: 1600px;
     position: absolute;
+    border: outset black  5px;
+    
 }
 
 nav ul li {
